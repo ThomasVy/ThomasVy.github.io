@@ -5,7 +5,11 @@ ul.navigation{
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
+
 .navigation li{
 	float:left;
 }
@@ -21,5 +25,18 @@ ul.navigation{
 	border-color: 3px solid white;
 }
 #active {
-    background-color: #4CAF50;
+    background-color: red;
+}
+#active:hover{
+    background-color: darkred;
+}
+.fa-file:hover
+{
+    color: gray;
+}
+a{
+    color: inherit;
+}
+body{
+   font-family: Arial; 
 }
