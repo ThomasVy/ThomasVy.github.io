@@ -89,3 +89,14 @@ li.dropdown {
     display:inline-block;
     width: 50%;
 }
+#github, #linkedin
+{
+ color:black;
+ opacity: 1;
+ filter: alpha(opacity=100);
+} 
+#github:hover, #linkedin:hover{
+    color:black;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
