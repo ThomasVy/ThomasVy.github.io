@@ -1,11 +1,9 @@
-function bringUpWindow(){
-				window.alert("Not yet implemented.");
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function openNavMenu() {
+	let x = document.getElementById("topNav");
+	if (x.className === "navbar") {
+	  x.className += " responsive";
+	} else {
+	  x.className = "navbar";
 	}
- function MyFunction(){
- 	document.getElementById("demo").innerHTML = "Hello World";
- }
- function MyFunction2(){
- 	var x, y;
- 	x =2; y = 5;
- 	return x+y;
- }
+}

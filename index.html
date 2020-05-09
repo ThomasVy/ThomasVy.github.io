@@ -4,27 +4,23 @@
 	<link href ="css/style.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src ="js/script.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel='icon' href = 'icon.jpg'>
-	<title>Home Page</title>
+    <link rel='icon' href = 'resources/icon.jpg'>
+    <title>Home Page</title>
+    <div class="navbar" id="topNav">
+        <a href = 'index.html' id = "active"><i class="fas fa-home"></i> Home</a>
+		<a href = 'aboutme.html' >About Me</a>
+		<a href = 'ContactPage.html'>Contact Info</a>
+		<a href = 'Projects.html'>Projects</a>
+        <a href="resources/Resume.pdf" target='_blank'>Resume</a>
+        <a href="javascript:void(0);" class="icon" onclick="openNavMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 </head>
 <body>
-	<ul class = "navigation">
-        <li><a href = '#Home'id = "active" ><i class="fas fa-home"></i> Home</a>
-        </li>
-		<li><a href = 'aboutme.html'>About Me</a></li>
-		<li><a href = 'ContactPage.html'>Contact Info</a></li>
-		<li><a href = 'Projects.html'>Projects</a></li>
-        <li class = 'dropdown'>
-            <a class = 'dropbtn'>Resume <i class="fa fa-caret-down"></i></a>
-            <div class = 'dropdown-content'>
-                <a href = '/web/viewer.html?file=Resume.pdf' target = "_blank" >View Resume</a>
-                <a href="/web/Resume.pdf" download >Download Resume</a>
-            </div>
-        </li>
-	</ul>
     <div class= 'intro'>
         <h1 style = 'border-bottom: 1px; border-bottom-style: solid;'>Welcome to my Website</h1>
-        <img src="resize.jpg" id = 'photo' style = 'margin-bottom: 0px;'>
+        <img src="resources/resize.jpg" id = 'photo' style = 'margin-bottom: 0px;'>
         <h2 style = 'margin-top: 0px;'>Thomas Vy</h2>
         <h3>A Little Summary About Myself</h3>
         <p>Hello, I am Thomas Vy. I am a 3rd year Software Engineering student at the University of Calgary. I am 21 years old and currently looking for an intership position. My proficient programming languages are <strong>C/C++, Processing, Java, C#, and Python.</strong> I also have some experience in HTML5, Cascading Style Sheets, and JavaScript. You can find the projects I have worked on on my <a href = "https://github.com/ThomasVy" target ='_blank'>GitHub</a>. My relevant coding experience includes working at the <a href="https://www.ucalgary.ca/sensenet/robotics" target ='_blank'>Robotics and Sensor Networks Group</a> in the Summer of 2018, joining Schulich Unmanned Aerial Vehicle in the Fall 2017 - Spring 2018, and joining University of Calgary Solar Car team in the Fall 2018 - Present.

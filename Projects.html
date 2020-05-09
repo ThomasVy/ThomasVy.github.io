@@ -4,24 +4,20 @@
 <link href ="css/style.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src ="js/script.js"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-<link rel='icon' href = 'icon.jpg'>
+<link rel='icon' href = 'resources/icon.jpg'>
 <title>Contact Page</title>
+<div class="navbar" id="topNav">
+    <a href = 'index.html'><i class="fas fa-home"></i> Home</a>
+    <a href = 'aboutme.html' >About Me</a>
+    <a href = 'ContactPage.html'>Contact Info</a>
+    <a href = 'Projects.html' id = "active">Projects</a>
+    <a href="resources/Resume.pdf" target='_blank'>Resume</a>
+    <a href="javascript:void(0);" class="icon" onclick="openNavMenu()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
 </head>
 <body>
-    <ul class = "navigation">
-        <li><a href = 'index.html' ><i class="fas fa-home"></i> Home</a>
-        </li>
-        <li><a href = 'aboutme.html'>About Me</a></li>
-        <li><a href = 'ContactPage.html'>Contact Info</a></li>
-        <li><a href = '#Projects' id = 'active'>Projects</a></li>
-        <li class = 'dropdown'>
-            <a class = 'dropbtn'>Resume <i class="fa fa-caret-down"></i></a>
-            <div class = 'dropdown-content'>
-                <a href = '/web/viewer.html?file=Resume.pdf' target = "_blank" >View Resume</a>
-                <a href="/web/Resume.pdf" download >Download Resume</a>
-            </div>
-        </li>
-    </ul>
     <h1 style = 'border-bottom-style: solid;'>Projects</h1>
     <div class = 'projects'>
         <h2><a href = '#' >Billiard Game (Processing)</a></h2>
